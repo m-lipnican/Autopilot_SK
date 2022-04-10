@@ -1,3 +1,19 @@
+/* Color scheme of the website:
+ - feather / #77C9D4
+ - marine / #57BC90
+ - forest / #015249
+ - sleek grey / #A5A5AF */
 html {
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
+    margin: 0 auto;
+    border: 0;
 }
+
+footer {
+    color:white;
+    line-height: 0.9;
+    position: absolute;
+    background-color: #57bc90;
+    width: 100%;
+ }
