@@ -3,17 +3,52 @@
  - marine / #57BC90
  - forest / #015249
  - sleek grey / #A5A5AF */
+
 html {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    margin: 0 auto;
-    border: 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+body {
+  margin: auto;
 }
 
 footer {
-    color:white;
-    line-height: 0.9;
-    position: absolute;
-    background-color: #57bc90;
-    width: 100%;
- }
+  color: white;
+  line-height: 0.9;
+  position: absolute;
+  background-color: #57bc90;
+  width: 100%;
+}
+/* TODO Make the tesla imagi crop on height */
+img {
+  width: 100%;
+  height: auto;
+}
+
+.menu {
+  margin: 0 auto;
+  display: flex;
+  background-color: #3a956e;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.menu a:hover {
+  font-weight: bold;
+  background-color: #57bc90;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  padding: 12px 17px;
+  text-align: center;
+}
+.menu p {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 17px;
+  padding-right: 17px;
+}
