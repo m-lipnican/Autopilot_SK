@@ -23,7 +23,9 @@ footer {
 /* TODO Make the tesla imagi crop on height */
 img {
   width: 100%;
-  height: auto;
+  height: 90%;
+  border-bottom: 10px solid #3a956e;
+  border-top: 10px solid #489c78;
 }
 
 p {
@@ -67,4 +69,18 @@ p {
   margin-right: 630px;
   border-left: 2px solid black;
   border-right: 2px solid black;
+}
+
+.uvod {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.text {
+  inline-size: 600px;
+  left: 300px;
+  right: 300px;
+  overflow-wrap: break-word;
+  padding: 15px 15px;
 }
