@@ -18,11 +18,17 @@ footer {
   position: absolute;
   background-color: #57bc90;
   width: 100%;
+  border-bottom: 1rem solid #489c78;
 }
 /* TODO Make the tesla imagi crop on height */
 img {
   width: 100%;
   height: auto;
+}
+
+p {
+  font-size: 18px;
+  overflow-wrap: break-word;
 }
 
 .menu {
@@ -51,4 +57,14 @@ img {
   text-align: center;
   padding-left: 17px;
   padding-right: 17px;
+}
+
+.historia,
+.sucastnost,
+.autonomne_riadenie {
+  padding: 0px;
+  margin-left: 630px;
+  margin-right: 630px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
 }
